@@ -6,24 +6,17 @@ Run the API:
 uvicorn main:app --reload
 ```
 
-Open Swagger:
+Open `weather.html` in your browser.
+
+Enter a city name and click **Axtar**.
+
+Example:
 
 ```text
-http://127.0.0.1:8000/docs
+Baku
+London
+Paris
+Istanbul
 ```
 
-Use the endpoint:
-
-```text
-GET /weather?city=Baku
-```
-
-You can enter any city:
-
-```text
-/weather?city=London
-/weather?city=Istanbul
-/weather?city=Paris
-```
-
-The API returns the current temperature, feels-like temperature, humidity, wind speed, and weather condition.
+The weather information will be displayed on the screen.
